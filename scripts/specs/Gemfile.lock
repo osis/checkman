@@ -8,10 +8,12 @@ GEM
     diff-lcs (1.2.4)
     happymapper (0.4.1)
       libxml-ruby (~> 2.0)
-    json (1.8.1)
+    json (2.2.0)
     libxml-ruby (2.7.0)
     mime-types (1.25)
-    nokogiri (1.5.9)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.3)
+      mini_portile2 (~> 2.4.0)
     nokogiri-happymapper (0.5.8)
       nokogiri (~> 1.5)
     pivotal-tracker (0.5.12)
@@ -42,7 +44,10 @@ PLATFORMS
 
 DEPENDENCIES
   json
-  nokogiri (= 1.5.9)
+  nokogiri (~> 1.10)
   pivotal-tracker (= 0.5.12)
   rspec
   webmock
+
+BUNDLED WITH
+   1.17.3
